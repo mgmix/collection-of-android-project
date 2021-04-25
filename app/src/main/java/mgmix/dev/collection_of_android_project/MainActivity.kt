@@ -1,13 +1,13 @@
 package mgmix.dev.collection_of_android_project
 
 import android.app.Activity
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import mgmix.dev.collection_of_android_project.calculator.CalculatorActivity
+import mgmix.dev.collection_of_android_project.gallery.GalleryActivity
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
 
         addProject("Calculator", CalculatorActivity::class.java)
+        addProject("Gallery", GalleryActivity::class.java)
 
     }
 

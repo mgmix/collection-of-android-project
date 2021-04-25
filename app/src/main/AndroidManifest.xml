@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="mgmix.dev.collection_of_android_project">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +19,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".calculator.CalculatorActivity"/>
+        <activity android:name=".calculator.CalculatorActivity" />
+
+        <activity android:name=".gallery.GalleryActivity" />
+        <activity
+            android:name=".gallery.PhotoFrameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
     </application>
 
 </manifest>
