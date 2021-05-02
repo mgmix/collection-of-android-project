@@ -26,6 +26,9 @@
             android:name=".gallery.PhotoFrameActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".pomodoro.PomodoroActivity"
+            android:theme="@style/Theme.Pomodoro" />
 
     </application>
 
