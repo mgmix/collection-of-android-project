@@ -19,5 +19,9 @@
     <!--    Pomodoro -->
     <color name="pomodoro_red">#FFD32F2F</color>
 
+    <!--    Recorder -->
+    <color name="gray">#FFBDBDBD</color>
+    <color name="light_gray">#FFEFEFEF</color>
+    <color name="dart_gray">#FF212121</color>
 
 </resources>

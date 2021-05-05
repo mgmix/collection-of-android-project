@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import mgmix.dev.collection_of_android_project.calculator.CalculatorActivity
 import mgmix.dev.collection_of_android_project.gallery.GalleryActivity
 import mgmix.dev.collection_of_android_project.pomodoro.PomodoroActivity
+import mgmix.dev.collection_of_android_project.recorder.RecorderActivity
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         addProject("Calculator", CalculatorActivity::class.java)
         addProject("Gallery", GalleryActivity::class.java)
         addProject("Pomodoro", PomodoroActivity::class.java)
+        addProject("Recorder", RecorderActivity::class.java)
 
     }
 

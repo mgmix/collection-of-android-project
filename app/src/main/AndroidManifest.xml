@@ -3,6 +3,7 @@
     package="mgmix.dev.collection_of_android_project">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -29,6 +30,9 @@
         <activity
             android:name=".pomodoro.PomodoroActivity"
             android:theme="@style/Theme.Pomodoro" />
+        <activity
+            android:name=".recorder.RecorderActivity"
+            android:theme="@style/Theme.Recorder" />
 
     </application>
 
