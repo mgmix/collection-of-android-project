@@ -24,4 +24,8 @@
     <color name="light_gray">#FFEFEFEF</color>
     <color name="dart_gray">#FF212121</color>
 
+    <!--  Browser -->
+    <color name="light_gray_browser">#FFCFCFCF</color>
+    <color name="dark_gray">#FF707070</color>
+
 </resources>

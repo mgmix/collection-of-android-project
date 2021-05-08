@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import mgmix.dev.collection_of_android_project.browser.BrowserActivity
 import mgmix.dev.collection_of_android_project.calculator.CalculatorActivity
 import mgmix.dev.collection_of_android_project.gallery.GalleryActivity
 import mgmix.dev.collection_of_android_project.pomodoro.PomodoroActivity
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         addProject("Gallery", GalleryActivity::class.java)
         addProject("Pomodoro", PomodoroActivity::class.java)
         addProject("Recorder", RecorderActivity::class.java)
+        addProject("Browser", BrowserActivity::class.java)
 
     }
 

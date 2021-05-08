@@ -24,4 +24,12 @@
     <style name="Theme.Recorder" parent="Theme.Collectionofandroidproject">
         <item name="android:windowBackground">@color/dart_gray</item>
     </style>
+
+    <style name="Theme.Browser" parent="Theme.Collectionofandroidproject">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>
