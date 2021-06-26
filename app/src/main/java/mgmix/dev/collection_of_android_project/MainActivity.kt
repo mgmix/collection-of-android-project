@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import mgmix.dev.collection_of_android_project.browser.BrowserActivity
 import mgmix.dev.collection_of_android_project.calculator.CalculatorActivity
 import mgmix.dev.collection_of_android_project.gallery.GalleryActivity
+import mgmix.dev.collection_of_android_project.notification.NotificationActivity
 import mgmix.dev.collection_of_android_project.pomodoro.PomodoroActivity
 import mgmix.dev.collection_of_android_project.recorder.RecorderActivity
 
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         addProject("Pomodoro", PomodoroActivity::class.java)
         addProject("Recorder", RecorderActivity::class.java)
         addProject("Browser", BrowserActivity::class.java)
+        addProject("Notification", NotificationActivity::class.java)
 
     }
 
