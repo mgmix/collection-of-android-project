@@ -32,4 +32,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.Saying" parent="Theme.Collectionofandroidproject">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>

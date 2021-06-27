@@ -12,6 +12,7 @@ import mgmix.dev.collection_of_android_project.gallery.GalleryActivity
 import mgmix.dev.collection_of_android_project.notification.NotificationActivity
 import mgmix.dev.collection_of_android_project.pomodoro.PomodoroActivity
 import mgmix.dev.collection_of_android_project.recorder.RecorderActivity
+import mgmix.dev.collection_of_android_project.saying.SayingActivity
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         addProject("Recorder", RecorderActivity::class.java)
         addProject("Browser", BrowserActivity::class.java)
         addProject("Notification", NotificationActivity::class.java)
+        addProject("Saying", SayingActivity::class.java)
 
     }
 

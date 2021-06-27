@@ -39,6 +39,9 @@
             android:name=".browser.BrowserActivity"
             android:theme="@style/Theme.Browser" />
         <activity android:name=".notification.NotificationActivity" />
+        <activity
+            android:name=".saying.SayingActivity"
+            android:theme="@style/Theme.Saying" />
 
         <service
             android:name=".notification.MyFirebaseMessagingService"
