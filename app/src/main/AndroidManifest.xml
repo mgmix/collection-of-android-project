@@ -43,6 +43,8 @@
             android:name=".saying.SayingActivity"
             android:theme="@style/Theme.Saying" />
 
+        <activity android:name=".youtube.YoutubeActivity" />
+
         <service
             android:name=".notification.MyFirebaseMessagingService"
             android:exported="false">

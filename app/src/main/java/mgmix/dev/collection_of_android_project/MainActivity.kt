@@ -13,6 +13,7 @@ import mgmix.dev.collection_of_android_project.notification.NotificationActivity
 import mgmix.dev.collection_of_android_project.pomodoro.PomodoroActivity
 import mgmix.dev.collection_of_android_project.recorder.RecorderActivity
 import mgmix.dev.collection_of_android_project.saying.SayingActivity
+import mgmix.dev.collection_of_android_project.youtube.YoutubeActivity
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         addProject("Browser", BrowserActivity::class.java)
         addProject("Notification", NotificationActivity::class.java)
         addProject("Saying", SayingActivity::class.java)
+        addProject("YoutubePlayer", YoutubeActivity::class.java)
 
     }
 
